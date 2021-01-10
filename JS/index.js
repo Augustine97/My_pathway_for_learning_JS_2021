@@ -43,5 +43,33 @@ console.log(typeof mans)
 console.log(typeof isApproved)
 console.log(typeof age)
 
+// refernce types ---> Object, array, function
+
+//What is object - think of a person. A person has name, address, age.These are the
+// properties of person.
+
+let person = {
+    personName:"Manu",
+    personAge:23
+
+};
+console.log(person)
+console.log(person.personName)
+console.log(person.personAge)
+
+// if we need to change the name of the person we can use dot operator for that
+person.personName = "Augustine";
+console.log(person.personName);
+
+// if we need to change the name of the person we can use bracket operator for that
+person["personName"] = "codeninjas";
+console.log(person.personName);
+
+// or using a third variable "selection" also we can do the following
+let selection = "personName";
+person[selection] = "codeninjas";
+console.log(person.personName);
+
+
 
 
