@@ -107,9 +107,14 @@ function greet(pname, lname) {
 //function call
 greet("Merin", "Sara Thomas");
 
+// --------------------------TYPES OF FUNCTION
+//a FUNCTION IS A SET OF STATEMENTS WHICH ARE USED TO PERFORM A SPECIFIC TASK.
 
+function square(num){
+    return num*num;
+}
 
-
+console.log(square(2));
 
 
 
