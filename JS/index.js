@@ -12,3 +12,8 @@ console.log(my_name);
 // 5. use camel notation if possible.
 // are case sensitive.
 // clecking git commit -a
+
+    //modern way to declare variables
+let firstName = 'Manu';
+let lastName = 'Mathew';
+console.log(firstName +" "+lastName);
