@@ -25,3 +25,13 @@ const interestrate = 0.3;
 console.log(interestrate);
 // if we execute the above code from linenos(22,23,24) we get the error index.js:23 "Uncaught TypeError: Assignment to constant variable. at index.js:23"
 // if we need to re-assign a variable  again and again use "let" else use "const"
+
+
+// primitive datatypes -->String, Number, Boolean, undefined, null
+// refernce types ---> 
+
+let name = "Manu";  //String literal
+let age = 38;    // Number Literal
+let isApproved = true; //Boolean Literal
+let man = undefined;  //undefined datatype
+let man = null; //null data type
