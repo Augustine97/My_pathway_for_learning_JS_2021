@@ -33,5 +33,15 @@ console.log(interestrate);
 let name = "Manu";  //String literal
 let age = 38;    // Number Literal
 let isApproved = true; //Boolean Literal
-let man = undefined;  //undefined datatype
+let mans = undefined;  //undefined datatype
 let man = null; //null data type
+
+//Use typeof to find the ""typeof"" to find the data type of variable
+console.log(typeof name)
+console.log(typeof man)
+console.log(typeof mans)
+console.log(typeof isApproved)
+console.log(typeof age)
+
+
+
