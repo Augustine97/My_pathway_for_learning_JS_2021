@@ -45,8 +45,8 @@ console.log(typeof age)
 
 //--------------------------------- refernce types ---> Object, array, function
 
-//---------What is object - think of a person. A person has name, address, age.These are the
-//---------properties of person.
+//What is object - think of a person. A person has name, address, age.These are the
+//properties of person.
 
 let person = {
     personName:"Manu",
@@ -71,7 +71,7 @@ person[selection] = "codeninjas";
 console.log(person.personName);
 
 
-//ARAYS
+//----------------------------------------------------ARAYS
 
 let selectedColors = ["red", "blue"];
 console.log(typeof selectedColors)
@@ -85,10 +85,27 @@ console.log(selectedColors);
  console.log(selectedColors);
  console.log(selectedColors.length);
 
- //FUCTUIONS
+ //-------------------------------------------------FUNCTIONS
+//  declaration of fuction
 
+function greet(pname) {   // parameter is "pname" to the function greet
+    console.log("Hello " + pname + "!!");
+}
 
+//function call
+greet("Mathew K A");
+greet("Elsamma Mathew");
+greet("Manu Mathew"); // argument is "Manu Mathew" to the function greet.
+greet("Alina Mathew");
 
+// multiple prameter function
+
+function greet(pname, lname) {   
+    console.log("Hello " + pname + " " + lname + "!!");
+}
+
+//function call
+greet("Merin", "Sara Thomas");
 
 
 
