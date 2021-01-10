@@ -71,5 +71,27 @@ person[selection] = "codeninjas";
 console.log(person.personName);
 
 
+//ARAYS
+
+let selectedColors = ["red", "blue"];
+console.log(typeof selectedColors)
+console.log(selectedColors);
+
+//Display the first color stored on the array selected colors 
+//arrays in js is dynamic and immutable
+//difference between arrays of different languages and JS are --> arrays in all other languages we can store data of one datatype and but in js we can store datatypes of different types.
+ console.log(selectedColors[0]);
+ selectedColors[2] = 1.9;
+ console.log(selectedColors);
+ console.log(selectedColors.length);
+ 
+
+
+
+
+
+
+
+
 
 
