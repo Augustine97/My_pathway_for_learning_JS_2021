@@ -10,4 +10,5 @@ console.log(my_name);
 // 3. Cannot start with a number (1name).
 // 4.Cannot contain a space or hyphen(-).
 // 5. use camel notation if possible.
+// are case sensitive.
 // clecking git commit -a
