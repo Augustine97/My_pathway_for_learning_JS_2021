@@ -139,8 +139,77 @@ console.log(newMessage)
 console.log(newMessage.split(' '));
 
 
+//-----------------------------------------if and else
+//----syntax
+//if (condition) {
+//     statement
+// }
+// else if (condition){
+//     statement
+// }
+// else if (condition){
+//     statement
+// }
+// else
+//     statement
 
 
+//Note:--  we use document.write to display in the web page
+let hour = 10;
+if (hour>=6 && hour<12){
+    document.write("Good Morning");
+}
+
+else if(hour>=12 && hour<18){
+    document.write("Good Afternoon");
+}
+else
+    document.write("Good night");
+
+//-----------------------------SWITCH STATEMENT
+
+document.write("\n");
+let day =1;
+switch(day){
+    //Switch case in Js accepts strings, numbers and boolean values 
+    case 1:
+        document.write("<h1>Sunday</h1>\n");
+        break;
+
+    case 2:
+        document.write("Monday\n");
+        break;
+
+    case 3:
+        document.write("Tuesday\n");
+        break;
+
+    case 4:
+        document.write("Wednesday\n");
+        break;
+    
+    case 5:
+        console.log("Thursday\n");
+        break;
+
+    case 6:
+        document.write("Friday\n");
+        break;
+    
+    case 6:
+        document.write("Saturday\n");
+        break;
+    
+    default:
+        document.write("Please enter correct input\n");
+}
+//another example of switch
+let sirName = "Mathew";
+switch("Manu "+sirName){
+    case "Manu Mathew":
+        document.write("<h2>This is my name.</h2>");
+
+}
 
 
 
