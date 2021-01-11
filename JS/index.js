@@ -205,11 +205,13 @@ switch(day){
 }
 //another example of switch
 let sirName = "Mathew";
-switch("Manu "+sirName){
+switch("Manu"+" "+sirName){
     case "Manu Mathew":
         document.write("<h2>This is my name.</h2>");
+        break;
+
+    default:
+        document.write("Wrong Input");
 
 }
-
-
 
