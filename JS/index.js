@@ -309,13 +309,27 @@ while(i< 10){
         console.log(i);
         
     }
-    
-   
-    
+ 
     //if(i==4) break;
 }
 
 
+// Do - while loop
+let c = 10;
+do{
+    c++;
+    if(c==13) break;
+    else console.log(c);
+
+}while(c<15);
+
+// for each loop
+// It is always advisable to use for each loop for arrays
+const petAnimals = ['cat', 'dog', 'horse', 'sheep', 'bird'];
+
+petAnimals.forEach(animal =>{
+    console.log(animal);
+})
 
 
 
