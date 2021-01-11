@@ -215,3 +215,112 @@ switch("Manu"+" "+sirName){
 
 }
 
+// -----------------------------------------------------------------LOOPS
+/* for loop
+    While
+    Do While
+    For in
+    For of
+
+syntax for for loop--> for(initialization; condition; updation(increment/decrement))
+*/
+
+for(let i=0; i<5; i++){
+    // document.write(i);
+    // document.write("<br><br>");
+    // console.log("Hello World "+i);
+    if(i%2!=0){
+        document.write("Hello World "+i);
+        document.write("<br><br>");
+
+    }
+
+
+}
+
+//break statement
+document.write("break statement");
+document.write("<br>")
+for(let i=0; i<5; i++)
+{
+    if(i==2){
+        break;
+    }
+    else{
+        document.write("Loop"+"-"+i+" ");
+        document.write("<br><br>")
+
+    }
+    
+}
+
+document.write("continue statement");
+document.write("<br>")
+    
+//continue statement
+for(let i=0; i<5; i++)
+{
+    if(i==2){
+        continue;
+    }
+    else{
+        document.write("Loop"+"-"+i+" ");
+        document.write("<br><br>")
+
+    }
+    
+}
+
+//using loops in array
+document.write("using loops in arrays");
+document.write("<br>")
+const frndNames = ['john','bob','mary','joe'];
+for(let i=0; i<frndNames.length ; i++){
+    document.write(frndNames[i]);
+        document.write("<br><br>")
+
+}
+
+//or using for of loop
+for(name of frndNames){   // use "in" in place of "of" to print the index 
+    console.log(name);
+}
+
+const user = {
+    first : "John",
+    last : "Jacob"
+
+}
+console.log(typeof user);
+for (key in user){
+    console.log(user[key]);
+}
+
+//while loop
+let i = 0;
+while(i< 10){
+    i++;
+    if(i==4){
+        console.log("exit out of the loop");
+        break;
+
+    } 
+    else{
+        console.log(i);
+        
+    }
+    
+   
+    
+    //if(i==4) break;
+}
+
+
+
+
+
+
+
+
+
+
