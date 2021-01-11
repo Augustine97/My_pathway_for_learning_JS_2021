@@ -117,5 +117,30 @@ function square(num){
 console.log(square(2));
 
 
+// ----------------------------------------------Strings
+
+const message = "My name is Manu Mathew";
+
+//String methods
+console.log(message.length);
+console.log(message[3]);
+console.log(message.includes('my'));
+console.log(message.includes('Manu'));
+console.log(message.startsWith("My"));
+console.log(message.endsWith('w'));
+console.log(message.indexOf("Manu"));
+console.log(message.replace("My","His"));
+console.log(message.toUpperCase());
+console.log(message.trim()); // removes whitespace in the starting and ending of the string.
+console.log(message.trimLeft()); //removes whitespaces on left side
+
+const newMessage = "This is my new \"new message\" ";   //escape notation for single quote
+console.log(newMessage)
+console.log(newMessage.split(' '));
+
+
+
+
+
 
 
